@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230208 23:11:35.577" rpa="false" schemaversion="3">
+<suite id="s1" name="TC4 GET TaxReliefCalculation" source="C:\Users\mohan\PycharmProjects\pythonProject\Govtech1\Automation\TC4_GET_TaxReliefCalculation.robot">
+<test id="s1-t1" name="Simple Positive Testcase for TaxRelief check" line="13">
+<kw name="Test 1" library="Utility">
+<msg timestamp="20230208 23:11:35.733" level="INFO">11111</msg>
+<status status="PASS" starttime="20230208 23:11:35.733" endtime="20230208 23:11:35.733"/>
+</kw>
+<status status="PASS" starttime="20230208 23:11:35.733" endtime="20230208 23:11:35.733"/>
+</test>
+<status status="PASS" starttime="20230208 23:11:35.577" endtime="20230208 23:11:35.741"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC4 GET TaxReliefCalculation">TC4 GET TaxReliefCalculation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

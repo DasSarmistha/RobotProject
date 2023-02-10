@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230210 13:55:54.287" rpa="false" schemaversion="3">
+<suite id="s1" name="Scenario5 AC5 GET Dispense" source="C:\Users\mohan\PycharmProjects\pythonProject\assignment1\Automation\Scenario5_AC5_GET_Dispense.robot">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
+<arg>${Base_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230210 13:55:54.460" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20230210 13:55:54.460" endtime="20230210 13:55:56.705"/>
+</kw>
+<test id="s1-t1" name="Dispense" line="12">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath:${Dispense_Button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230210 13:55:56.713" level="INFO">Clicking element 'xpath://a[normalize-space()='Dispense Now']'.</msg>
+<status status="PASS" starttime="20230210 13:55:56.713" endtime="20230210 13:55:56.905"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230210 13:55:57.906" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230210 13:55:56.905" endtime="20230210 13:55:57.906"/>
+</kw>
+<status status="PASS" starttime="20230210 13:55:56.705" endtime="20230210 13:55:57.906"/>
+</test>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230210 13:55:57.906" endtime="20230210 13:55:59.998"/>
+</kw>
+<status status="PASS" starttime="20230210 13:55:54.287" endtime="20230210 13:55:59.998"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Scenario5 AC5 GET Dispense">Scenario5 AC5 GET Dispense</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
